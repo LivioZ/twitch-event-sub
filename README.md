@@ -62,7 +62,7 @@ Open another terminal and type:
 source venv/bin/activate
 python client.py
 import client
-client.subscribe(username, sub_type, url)
+client.subscribe('username', 'sub_type', 'url')
 ```
 where:
 * `username` is the streamer name
